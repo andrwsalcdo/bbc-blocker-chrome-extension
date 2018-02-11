@@ -18,4 +18,4 @@ The 10 news organizations:
 * The Guardian
 * USA Today
 
-more to follow...
+![Imgur](https://i.imgur.com/5qzp2ZW.png)

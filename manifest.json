@@ -14,16 +14,16 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "*://*.bbc.com/*",
-    "*://*.cnn.com/*",
-    "*://*.foxnews.com/*",
-    "*://*.nytimes.com/*",
-    "*://*.huffingtonpost.com/*",
-    "*://*.nbcnews.com/*",
-    "*://*.washingtonpost.com/*",
-    "*://*.wsj.com/*",
-    "*://*.usatoday.com/*",
-    "*://*.theguardian.com/*"
+    "*://*.bbc.com/",
+    "*://*.cnn.com/",
+    "*://*.foxnews.com/",
+    "*://*.nytimes.com/",
+    "*://*.huffingtonpost.com/",
+    "*://*.nbcnews.com/",
+    "*://*.washingtonpost.com/",
+    "*://*.wsj.com/",
+    "*://*.usatoday.com/",
+    "*://*.theguardian.com/"
   ],
   "background": {
     "scripts": ["iconButton.js"],
@@ -32,16 +32,16 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.bbc.com/*",
-        "*://*.cnn.com/*",
-        "*://*.foxnews.com/*",
-        "*://*.nytimes.com/*",
-        "*://*.huffingtonpost.com/*",
-        "*://*.nbcnews.com/*",
-        "*://*.washingtonpost.com/*",
-        "*://*.wsj.com/*",
-        "*://*.usatoday.com/*",
-        "*://*.theguardian.com/*"
+        "*://*.bbc.com/",
+        "*://*.cnn.com/",
+        "*://*.foxnews.com/",
+        "*://*.nytimes.com/",
+        "*://*.huffingtonpost.com/",
+        "*://*.nbcnews.com/",
+        "*://*.washingtonpost.com/",
+        "*://*.wsj.com/",
+        "*://*.usatoday.com/",
+        "*://*.theguardian.com/"
       ],
       "css": ["styles.css"],
       "js": ["main.js"],
